@@ -20,6 +20,19 @@
       overflow: hidden;
       white-space: nowrap;
       animation: typingEffectAnimation 2.5s steps(20, end);
+      text-align: center;
+    }
+    h3 {
+      color: var(--yellow-theme-main-color);
+      margin: 0px;
+      font-weight: 500;
+      font-size: 8rem;
+      line-height: 10rem;
+      position: relative;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typingEffectAnimation 2.5s steps(20, end);
+      text-align: center;
     }
   }
   &__contact-me{
