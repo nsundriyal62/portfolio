@@ -21,22 +21,42 @@ export const data = {
     ],
     education: [
       {
-        title: "Secondary",
-        subTitle: "ABC School",
+        title: "HIGH SCHOOL",
+        subTitle: "(Jawahar Navodaya Vidyalaya, Almora)",
         description:
-          "10th Grade",
+          "PERCENTAGE-89%",
       },
       {
-        title: "Higher Secondary",
-        subTitle: "ABC School of higher education",
+        title: "INTERMEDIATE",
+        subTitle: "(Jawahar Navodaya Vidyalaya, Almora)",
         description:
-          "12th Grade in Science",
+          "PERCENTAGE-87%",
       },
       {
-        title: "B.Tech",
-        subTitle: "XYZ institute of technology",
+        title: "B.Tech-CSE",
+        subTitle: "(Goving Ballabh Pant institute of technology)",
         description:
-          "Bachelor of technology in computer science",
+          "CGPA-8.1",
+      },
+    ],
+     projects: [
+      {
+        title: "HIGH SCHOOL",
+        subTitle: "(Jawahar Navodaya Vidyalaya, Almora)",
+        description:
+          "PERCENTAGE-89%",
+      },
+      {
+        title: "INTERMEDIATE",
+        subTitle: "(Jawahar Navodaya Vidyalaya, Almora)",
+        description:
+          "PERCENTAGE-87%",
+      },
+      {
+        title: "B.Tech-CSE",
+        subTitle: "(Goving Ballabh Pant institute of technology)",
+        description:
+          "CGPA-8.1",
       },
     ],
   };
