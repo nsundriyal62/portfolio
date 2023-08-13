@@ -43,6 +43,9 @@ const Contact = () => {
             transform: "translateX(0px)",
           }}
         >
+         <form
+          action="https://formspree.io/f/xaygedrr"
+          method="POST">
           <div className="contact__content__form">
             <div className="contact__content__form__controlswrapper">
               <div>
@@ -82,6 +85,7 @@ const Contact = () => {
             </div>
             <button>Submit</button>
           </div>
+          </form>
         </Animate>
       </div>
     </section>
