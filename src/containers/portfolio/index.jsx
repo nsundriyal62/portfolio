@@ -12,34 +12,33 @@ import { useState } from "react";
 const portfolioData = [
   {
     id: 2,
-    name: "Ecommerce",
+    name: "articles blog",
     image: ImageOne,
-    link: "",
+    link: "https://business-stories-hindi.blogspot.com/ ",
   },
   {
     id: 3,
-    name: "Notes App",
-    link: "",
+    name: "content creation",
+    link: "https://www.youtube.com/@jaiandbharat35",
     image: ImageTwo,
   },
   {
-    id: 2,
-    name: "Supplier Design",
+    id: 4,
+    name: "quotes blog",
     image: ImageThree,
-    link: "",
+    link: "https://navodayaboyquotes.blogspot.com/",
   },
   {
-    id: 2,
-    name: "Todo App",
+    id: 5,
+    name: "video edit",
     image: ImageFour,
-
-    link: "",
+    link: "https://www.youtube.com/@biharijiparaashrit",
   },
   {
-    id: 3,
-    name: "Shopping cart design",
+    id: 6,
+    name: "still working",
     image: ImageFive,
-    link: "",
+    link: "https://github.com/nsundriyal62/walmart_hacathon",
   },
 ];
 
@@ -116,7 +115,9 @@ const Portfolio = () => {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.name}</p>
+                    <a href={item.link} target="_blank" rel="noopener noreferrer">
                     <button>Visit</button>
+                    </a>
                   </div>
                 )}
               </div>
