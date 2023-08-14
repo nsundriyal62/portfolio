@@ -11,31 +11,31 @@ import { useState } from "react";
 
 const portfolioData = [
   {
-    id: 2,
+    id: 3,
     name: "articles blog",
     image: ImageOne,
     link: "https://business-stories-hindi.blogspot.com/ ",
   },
   {
-    id: 3,
+    id: 2,
     name: "content creation",
     link: "https://www.youtube.com/@jaiandbharat35",
     image: ImageTwo,
   },
   {
-    id: 4,
+    id: 3,
     name: "quotes blog",
     image: ImageThree,
     link: "https://navodayaboyquotes.blogspot.com/",
   },
   {
-    id: 5,
+    id: 2,
     name: "video edit",
     image: ImageFour,
     link: "https://www.youtube.com/@biharijiparaashrit",
   },
   {
-    id: 6,
+    id: 3,
     name: "still working",
     image: ImageFive,
     link: "https://github.com/nsundriyal62/walmart_hacathon",
@@ -45,15 +45,15 @@ const portfolioData = [
 const filterData = [
   {
     filterId: 1,
-    label: "All",
+    label: "ALL",
   },
   {
     filterId: 2,
-    label: "Developement",
+    label: "CONTENT",
   },
   {
     filterId: 3,
-    label: "Design",
+    label: "CODING",
   },
 ];
 
