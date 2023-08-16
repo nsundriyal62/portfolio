@@ -20,20 +20,21 @@ const Home = () => {
         </h1>
       </div>
       <Animate
-        play
-        duration={1.5}
-        delay={1}
-        start={{
-          transform: "translateY(550px)",
-        }}
-        end={{
-          transform: "translatex(0px)",
-        }}
-      >
-        <div className="home__contact-me">
-          <button onClick={handleNavigateToContactMePage}>Hire Me</button>
-        </div>
-      </Animate>
+  play
+  duration={1.5}
+  delay={1}
+  start={{
+    opacity: 0, // Initial opacity of 0 (fully transparent)
+  }}
+  end={{
+    opacity: 1, // Ending opacity of 1 (fully opaque)
+  }}
+>
+  <div className="home__contact-me">
+    <button onClick={handleNavigateToContactMePage}>Hire Me</button>
+  </div>
+</Animate>
+
     </section>
   );
 };

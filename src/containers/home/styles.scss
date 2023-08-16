@@ -37,6 +37,7 @@
       border: 1.5px solid var(--yellow-theme-main-color);
       border-radius: 4px;
       font-weight: 500;
+      // z-index: -20;
 
       &:hover{
         background: var(--yellow-theme-main-color);
@@ -50,21 +51,23 @@
 
 @media only screen and (max-width: 550px) {
   .home__text-wrapper h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 5rem;
+    
   }
+
 }
 
 @media only screen and (min-width: 551px) and (max-width: 768px) {
   .home__text-wrapper h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 6rem;
   }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 990px) {
   .home__text-wrapper h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 8rem;
   }
 }
