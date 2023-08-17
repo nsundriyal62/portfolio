@@ -39,6 +39,11 @@ const Navbar = () => {
   const handleToggleIcon = () => {
     setToggleIcon(!toggleIcon);
   };
+
+  const handleMenuItemClick = () => {
+    setToggleIcon(false); // Close the menu when a menu item is clicked
+  };
+
   return (
     <div>
       <nav className="navbar">
@@ -47,14 +52,13 @@ const Navbar = () => {
             <FaReact size={30} />
           </Link>
         </div>
-        <ul
-          className={`navbar__container__menu ${toggleIcon ? "active" : ""} `}
-        >
+        <ul className={`navbar__container__menu ${toggleIcon ? "active" : ""}`}>
           {data.map((item, key) => (
             <li key={key} className="navbar__container__menu__item">
               <Link
                 className="navbar__container__menu__item__links"
                 to={item.to}
+                onClick={handleMenuItemClick}
               >
                 {item.label}
               </Link>
@@ -62,11 +66,13 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="nav-icon" onClick={handleToggleIcon}>
-          {toggleIcon ? <HiX size={30} /> : <FaBars size={30} />}
+          {/* Always show the bars icon */}
+          <FaBars size={30} />
         </div>
       </nav>
     </div>
   );
 };
+  
 
 export default Navbar;
